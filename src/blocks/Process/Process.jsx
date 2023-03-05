@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from "../../components/grid/Grid";
+import Grid from "../../components/Grid/Grid";
 import styles from "./Process.module.css";
 
 const Process = () => {
