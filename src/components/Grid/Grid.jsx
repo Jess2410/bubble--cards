@@ -10,7 +10,7 @@ import DynamicTextarea from "../ReactQuill/DynamicTextarea";
 import axios from "axios";
 import dynamic from "next/dynamic";
 import html2canvas from "html2canvas";
-import { Limelight } from "next/font/google";
+
 const Grid = () => {
   const [colorSelected, setColor] = useState("");
   const [images, setImages] = useState([]);
@@ -41,14 +41,13 @@ const Grid = () => {
         ["bold", "italic", "underline", "strike", "blockquote"],
         [{ list: "ordered" }, { list: "bullet" }],
         [{ align: [] }],
-        [{ color: [] }, { background: [] }],
-        ["link", "image"],
+        [{ color: [] }],
       ],
     },
   };
 
-  const onChangeMessage = (e) => {
-    setMessage(e);
+  const onChangeMessage = (value) => {
+    setMessage(value);
   };
 
   // theme

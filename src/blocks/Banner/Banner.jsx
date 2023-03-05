@@ -5,7 +5,7 @@ import FloatingButton from "../../components/FloatingButton/FloatingButton";
 const Banner = () => {
   return (
     <>
-      <main className={styles.banner}>
+      <main className={styles.banner} id="home">
         <div className={styles.banner_textBox}>
           <h2 className={styles.banner_text}>
             Les cartes

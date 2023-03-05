@@ -45,10 +45,10 @@ const Header = () => {
         </a>
         {checkWidth > 900 ? (
           <ul className={styles.header_navbar}>
-            <Link href="#">
-              {" "}
+            <Link href="#home" style={{ cursor: "pointer" }}>
               <li className={styles.header_navbar_li}>Home</li>
             </Link>
+
             <Link href="#about">
               <li className={styles.header_navbar_li}>About</li>
             </Link>
