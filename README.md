@@ -1,38 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Bubble Cards est l'application au design ChewinGum, ludique et facile d'utilisation, qui vous permet de créer des cartes virtuelles et de les télécharger.
 
-## Getting Started
+Réalisée en NextJS, elle utilise des librairies et fonctionnalités React.
 
-First, run the development server:
+Bubble Cards vous donne la possibilité de personnaliser votre Card selon : 
+- la couleur de fond de votre carte,
+- le message : sa couleur, sa taille...
+- l'image : à partir de l'API UnSplash
+Et de la télécharger au format PNG.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Lien : https://bubble-cards-45v1-55f7laga9-jess2410.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://user-images.githubusercontent.com/89982670/222982110-cb6abc67-1a6a-43d3-8184-b0de386aea67.png)
