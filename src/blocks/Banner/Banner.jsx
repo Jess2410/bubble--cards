@@ -23,7 +23,7 @@ const Banner = () => {
         <div className={styles.banner_imgBox}>
           <img
             className={styles.banner_img}
-            src="/images/girlBubble.png"
+            src="/images/GirlBubble.png"
             alt="girl gum"
           />
         </div>
