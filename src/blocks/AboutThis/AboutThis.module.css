@@ -1,0 +1,124 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    min-height: 80vh;
+    padding: 2rem 6rem;
+    position: relative
+}
+.about_wrapper{
+    width: 100%;
+    display: flex;
+    position: relative
+}
+.about_textBox{
+    flex: 1;
+}
+.about_text{
+    font-size: 2em;
+    font-family: 'Baloo';
+    color: rgb(104, 31, 104);
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.about_text_p{
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    font-family: 'roboto';
+    /* color: #fff; */
+    color: rgb(104, 31, 104);
+    font-weight: 400;
+    line-height: 1.4em;
+    font-family: 'Montserrat', sans-serif;
+}
+.about_img{
+    max-width: 60%; 
+    position: fixed;
+    right: 0px;
+    top : 10%;
+    z-index: -1;
+object-fit: cover;
+    }
+.about_listBox{
+    flex: 1;
+}
+.about_list{
+    display: flex;
+    margin: 0 0 20px 0;
+
+    
+}
+.about_list_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px  0 10px 20px ;
+    color: rgb(104, 31, 104);   
+}
+
+.about_list_img{
+    object-fit: contain;
+}
+
+.about_list_text_h3{
+color: #fff;
+display: inline-block;
+width: fit-content;
+font-size: 1.5rem;
+text-decoration: "underline";
+font-family: "Baloo";
+border-bottom: 1px rgb(104, 31, 104) solid;
+}
+.about_list_text_p{
+    letter-spacing: 1;
+    font-family: "Baloo";
+    font-size: 1.1em;
+}
+
+
+/* Laptop */
+@media (min-width: 768px){
+    .about {
+        min-height: auto;
+        gap: 5%;
+    }
+    }
+
+/* Tablet and smartphone*/
+
+@media (max-width: 768px){
+.about {
+    padding: 2rem 2rem;
+    flex-direction: column;
+    height: auto;
+    position: inherit;
+    flex-direction: column;
+}
+.about_textBox{
+    padding: 2rem 2rem;
+    max-width: 100%;
+    position: inherit;
+    text-align: center;
+}
+.about_text_p{
+    font-size: 1em;
+}
+    
+.about_listBox{
+    padding: 2rem 0;
+    max-width: 100%;
+    position: inherit;
+    transform:inherit;
+}
+
+.about_img{
+    max-width: 100%; 
+    position: fixed;
+    right: 0px;
+    top : 10%;
+    z-index: -1;
+    object-fit: cover;
+    }
+}

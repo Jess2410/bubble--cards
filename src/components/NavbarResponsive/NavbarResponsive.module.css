@@ -1,0 +1,31 @@
+.NavbarResponsive {
+    /* background-color: #5c7587; */
+    display: flex;
+    height: 400px;
+    margin-top: 1vh;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7BAC;
+    font-family: "Baloo";
+    position: sticky;
+  }
+  .NavbarResponsive li {
+    list-style: none;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+    color: white;
+  }
+  .NavbarResponsiveNone {
+    display: none;
+  }
+  @media (min-width: 900px) {
+    .NavbarResponsive {
+      display: none;
+    }
+  }

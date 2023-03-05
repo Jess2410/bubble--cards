@@ -1,0 +1,11 @@
+.button{
+  margin-top: 50px;
+  min-width: 170px;
+  min-height: 50px;
+  background: radial-gradient(86.27% 388.57% at 84.41% 35.94%, #F09DCA 25%, #F38AA9 80.73%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 10px;
+  border: #fff 1px solid;
+  color : #fff;
+  font-family: 'Bubble';
+  font-size: 1.5rem;
+}

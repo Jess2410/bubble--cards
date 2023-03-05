@@ -1,0 +1,125 @@
+.banner{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+      padding: 2rem 6rem;
+      height: 60vh;
+}
+.banner_wrapper{
+width: 100%;
+display: flex;
+}
+.banner_textBox{
+    width: 55%;
+}
+.banner_text{
+    font-size: 2.75rem;
+     font-family: 'Baloo';
+    color: white;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+.banner_span{
+   color: #FF7BAC;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Bubble';
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(177, 33, 151);
+}
+.banner_text_p{
+    letter-spacing: 2px;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(104, 31, 104);
+    line-height: 1.4em;
+}
+.banner_imgBox{
+    display: flex;
+    }
+.banner_img{
+    width: 100%;
+    }
+
+.banner_arrow{
+    background-color: white;
+    background-image: url(/images/material-arrow-downward.svg);
+    background-repeat: no-repeat;
+    -webkit-background-position: center center;
+    background-position: center center;
+    border: 2px solid #FF7BAC;
+    border-radius: 100%;
+    bottom: clamp(54px, 14vw, 100px);
+    height: 14px;
+    left: calc(50% - 7px - 21px);
+    padding: 21px;
+    position: absolute;
+    width: 14px;    
+}
+
+/* Tablet and smartphone*/
+@media (max-width: 1024px){
+    .banner_imgBox{
+        display: flex;
+        width: 45%;
+        justify-content: flex-end;
+        }
+    .banner{
+        height: 40vh;
+        }
+    }
+@media (max-width: 768px){
+    .banner {
+        padding: 2rem 2rem;
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+    }
+    .banner_textBox, .banner_imgBox{
+width: 100%;
+text-align: center;
+    }
+    .banner_text{
+        margin-top: 200px;
+        font-size: 2.5rem;
+        line-height: 1.2em;
+    }
+    .banner_span{
+       color: #7b95ff;
+       font-size: 2rem;
+       
+    }
+    .banner_text_p{
+        font-size: 1em;
+    }
+}
+@media (max-width: 425px){
+    .banner {
+        padding: 0rem 2rem;
+        flex-direction: column;
+        height: auto;
+        margin-top: 0;
+    }
+    .banner_textBox, .banner_imgBox{
+width: 100%;
+text-align: center;
+    }
+    .banner_text{
+        font-size: 2.5rem;
+        line-height: 1.2em;
+        margin-top: 100px;
+    }
+    .banner_span{
+       color: #7b95ff;
+        font-size: 2rem;
+    }
+    .banner_imgBox{
+        margin-bottom: 50px;
+    }
+    .banner_text_p{
+        font-size: 1em;
+    }
+  }

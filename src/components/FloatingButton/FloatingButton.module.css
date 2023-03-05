@@ -1,0 +1,13 @@
+.banner_arrow{
+    margin: auto;
+    background-color: white;
+    background-image: url(/images/material-arrow-downward.svg);
+    background-repeat: no-repeat;
+    -webkit-background-position: center center;
+    background-position: center center;
+    border: 2px solid #FF7BAC;
+    border-radius: 100%;
+    padding: 21px;
+    position: absolute;
+    width: 14px;    
+}
